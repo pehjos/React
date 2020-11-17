@@ -1,0 +1,26 @@
+.body{
+
+  background-color: white;
+}
+
+.project__flex{
+display: flex;
+flex: 1;
+overflow: hidden;
+width: 100%;
+align-items: center;
+margin-bottom: 0;
+}
+@media(max-width:700px){
+
+
+  .project__flex{
+    flex-direction: column;
+    flex: 1;
+  align-items: center;
+  justify-content: center;
+width: 100%;
+    }
+
+
+}

@@ -1,0 +1,195 @@
+.resumeview{
+background-color: white;
+border: 1px solid lightgray;
+box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+margin: 10px;
+}
+
+.resume__header{
+display: flex;
+margin: 3px;
+align-items: center;
+
+}
+.resume__header>img{
+
+height: 100px;
+border-radius: 20px;
+width: 100px;
+margin: 5px;
+}
+.resume__header>h6{
+font-size: 12px;
+margin: 3px;
+overflow: hidden;
+}
+.resumeview>h6{
+text-align: center;
+margin-top: 10px;
+margin-bottom: 2px;
+}
+@media(min-width:900px){
+.resume__header>p{
+font-size: 18px;
+
+}
+
+}
+@media(max-width:800px){
+.resume__header>p{
+font-size: 12px;
+
+}
+.resume__anycontent{
+flex-direction: column;
+margin-bottom: -10px;
+}
+
+.resume__header>img{
+
+height: 100px;
+border-radius: 20px;
+width: 100px;
+margin-top: 0;
+
+}
+.resume__header{
+margin-top: 0;
+align-items: center;
+flex-direction: column;
+
+}
+.resume__skills{
+flex-direction: column;
+display: flex; 
+align-items: center;
+}
+}
+
+.resume__contactsrow1{
+margin: 1px;
+
+}
+.iconsadress{
+display: flex;
+align-items: baseline;
+color: rgba(105, 231, 231, 0.904);
+margin: 3px;
+margin-bottom: -20px;
+}
+.iconsadress>p{
+font-size: 14px;
+color: black;
+align-items: baseline;
+}
+.resume__contacts{
+display: flex;
+flex: 1;
+justify-content: space-evenly;
+margin: 10px;
+background-color: whitesmoke;
+align-items: center;
+}
+.resume__skills{
+display: flex;
+
+margin: 10px;
+justify-content: space-evenly;
+
+}
+.resume__skills ul li{
+color:black;
+background-color: rgba(121, 243, 243, 0.856);
+font-size: 12px;
+border-radius: 5px;
+width: 250px;
+height: 20px;
+text-align: center;
+}
+.resume__skills>h6{
+color: rgba(121, 243, 243, 0.856);
+}
+.resumeview>h6{
+color: rgba(121, 243, 243, 0.856);
+
+}
+
+
+
+.resume__education{
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+margin: 10px;
+
+}
+.resume__education>h6{
+font-size: 14px;
+color:rgba(121, 243, 243, 0.856);
+}
+
+.resume__workexpert>p{
+
+margin-bottom: -6px;
+
+}
+.resume__workexpert{
+margin: 10px;
+
+
+}
+.resume__workexpert>h6{
+color:rgba(121, 243, 243, 0.856);
+
+}
+.company{
+font-size: 14px;
+color: #333;
+font-weight: 600;
+margin: 10px;
+}
+.time{
+font-size: 10px;
+margin: 11px;
+font-style: italic;
+}
+.ptext{
+font-size: 14px;
+color: #000000;
+}
+.title1{
+color: tomato;
+
+}
+
+.resume__anycontent>p{
+margin-bottom: -10px;
+color: #333;
+font-size: 13px;
+margin: 10px;
+
+}
+
+.content1>h6{
+color: turquoise;
+margin: 10px;
+
+}
+.homepage{
+text-align: center;
+color: blue;
+font-weight: 600;
+font-size: 13px;
+
+}
+.content1{
+
+align-content: flex-start;
+display: flex;
+flex: 0.3;
+}
+.content1>p{
+display: flex;
+align-items: center;
+margin: 10px;
+}
